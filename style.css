@@ -145,7 +145,20 @@ section{
 .me a, li{
     text-decoration: none;
     list-style: none;
+    color: #ffffff;
+    /* margin: 3px; */
+}
+.me li{
+    margin: 7px;
+}
+ul li{
+    margin: 6px;
+}
+.list-a{
     color: #000;
+}
+.list-a li{
+    list-style: square;
 }
 .buttt{
     background-color: #92d2f4;
@@ -324,7 +337,7 @@ list .card-item .card-image {
     font-size: 60px;
 }
 .section{
-    height: 40vh;
+    height: 25vh;
 }
 .class{
     justify-content: space-between;
