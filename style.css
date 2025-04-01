@@ -203,8 +203,8 @@ list .card-item .card-image {
 }
 
 .card-wrapper .swiper-pagination-bullet {
-    height: 15px;
-    width: 15px;
+    height: 13px;
+    width: 13px;
     opacity: 0.5;
     background-color: #ee0964;
     /* margin: 10px; */
@@ -324,9 +324,7 @@ border: none;
 margin-top: 5px;
 
 }
-.btn{
-    margin-left: 23px;
-}
+
 .btn button{
     width: 100%;
     padding: 10px 20px;
