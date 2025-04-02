@@ -147,18 +147,25 @@ section{
     list-style: none;
     color: #ffffff;
     /* margin: 3px; */
+    text-align: center;
+    justify-content: space-between;
 }
 .me li{
-    margin: 7px;
+    /* margin: 7px; */
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
-ul li{
-    margin: 6px;
-}
+
 .list-a{
     color: #000;
 }
 .list-a li{
     list-style: square;
+    
+    margin-top: 7px;
+    margin-bottom: 7px;
+
 }
 .buttt{
     background-color: #92d2f4;
@@ -344,15 +351,20 @@ list .card-item .card-image {
     text-decoration: none;
     list-style: none;
 }
-.me a li{
-    justify-content: space-between;
-    text-decoration: none;
-    list-style: none;
-}
+
 .fill{
     padding-top: 30px;
     padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
 }
+@media screen and (max-width:360px){
+    .fill{
+        text-align: center;
+    }
+}
+
 /* button css  */
 .buton{
     
@@ -387,3 +399,73 @@ color: black;
     margin-left: 150px;
 } */
 
+.new-but{
+    border: none;
+    padding: 13px 50px;
+    border-radius: 20px;
+    background-color: rgb(253, 242, 229);
+    color: #005c62;
+    margin-top: 20px;
+    
+}
+/* hover effect  */
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    font-weight: 500;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    /* background-color: #fff; */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: green;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        background-color: green;
+        visibility: hidden;
+        transition: 0.4s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link::before {
+
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: #005c60;
+    visibility: hidden;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    visibility: visible;
+}
