@@ -39,7 +39,7 @@ color: #fff;
 .new-home{
     
     min-height: 70vh;
-    /* display: flex; */
+    display: flex;
     /* background: url(aman.jpeg) no-repeat;  */
     background-image: linear-gradient(rgba(0,0,0,0.50) ,rgba(0,0,0,0.50)),url(images/istockbg.webp);
     background-size: cover;
@@ -66,6 +66,10 @@ section{
 }
 .home.contantt{
     max-width: 40rem;
+    justify-content: center;
+}
+.new-home{
+    
     justify-content: center;
 }
 .home .contantt h3{
@@ -98,8 +102,46 @@ section{
     text-decoration: none;
     margin: 10px;
 }
+/* new para  */
 
+.new-home.contantt{
+    max-width: 40rem;
+    justify-content: center;
+}
+.new-home{
+    
+    justify-content: center;
+}
+.new-home .contantt h3{
+    font-size: 4rem;
+    /* text-transform: uppercase; */
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.new-home .contantt p{
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem 0;
+    max-height: 40rem;
+    text-align: center;
+}
+.new-home{
+    /* background-position: left; */
+    justify-content: center;
+    text-align: center;
 
+}
+.new-home.contantt h3{
+    font-size: 3rem;
+}
+.new-home.contantt p{
+    font-size: 1rem;
+}
+.new-contantt a{
+    text-decoration: none;
+    margin: 10px;
+}
 
 
 
