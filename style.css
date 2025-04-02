@@ -45,6 +45,14 @@ color: #fff;
     background-size: cover;
     background-position: center;
 }
+@media screen and (max-width:380px){
+    .new-home{
+        
+        background-size: contain;
+        min-height: fit-content;
+
+    }
+}
 @media screen and(max-width:360px){
     .home{
         background-size: contain;
@@ -359,7 +367,7 @@ list .card-item .card-image {
     align-items: center;
     /* text-align: center; */
 }
-@media screen and (max-width:360px){
+@media screen and (max-width:460px){
     .fill{
         text-align: center;
     }
