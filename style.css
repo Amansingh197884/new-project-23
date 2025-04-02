@@ -41,7 +41,7 @@ color: #fff;
     min-height: 70vh;
     display: flex;
     /* background: url(aman.jpeg) no-repeat;  */
-    background-image: linear-gradient(rgba(0,0,0,0.50) ,rgba(0,0,0,0.50)),url(images/Apartments.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.50) ,rgba(0,0,0,0.50)),url(images/istockbg.webp);
     background-size: cover;
     background-position: center;
 }
@@ -150,7 +150,7 @@ section{
     border-radius: 5px;
     
 }
-.me a, li{
+.me a{
     text-decoration: none;
     list-style: none;
     color: #ffffff;
@@ -163,6 +163,13 @@ section{
     text-align: center;
     margin-top: 7px;
     margin-bottom: 7px;
+    
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    /* margin: 3px; */
+    text-align: center;
+    justify-content: space-between;
 }
 
 .list-a{
@@ -402,10 +409,7 @@ margin-top: 5px;
 background-color: yellow;
 color: black;
 }
-/* .arro
-{
-    margin-left: 150px;
-} */
+
 
 .new-but{
     border: none;
