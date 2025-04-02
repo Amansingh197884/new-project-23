@@ -112,6 +112,7 @@ section{
 .imf1{
     aspect-ratio: 13 /10;
     border-radius: 5px;
+    box-shadow: 1px 1px 10px;
 
 }
 
@@ -148,7 +149,7 @@ section{
 }
 .dar{
     border-radius: 5px;
-    
+    box-shadow: 1px 1px 10px ;
 }
 .me a{
     text-decoration: none;
@@ -317,7 +318,7 @@ list .card-item .card-image {
     /* border-radius: 12px; */
     text-decoration: none;
     /* border: 2px solid transparent; */
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 1px 20px rgb(225, 222, 215);
     transition: 0.2s ease;
     /* margin: 20px; */
 }
