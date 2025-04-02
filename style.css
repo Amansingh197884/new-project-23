@@ -482,3 +482,12 @@ color: black;
     width: 100%;
     visibility: visible;
 }
+.thakur{
+    width: 50px;
+    border-radius: 50%;
+}
+.icon34 i{
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
