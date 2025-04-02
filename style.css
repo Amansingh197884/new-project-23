@@ -589,4 +589,12 @@ border: none    ;
             cursor: pointer;
             color: darkkhaki;
         }
+        li:hover{
+            color: chocolate;
+
+        }
+        .new-but:hover{
+            background-color: #92d2f4;
+            color: #000000;
+        }
  
