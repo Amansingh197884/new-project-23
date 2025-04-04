@@ -31,8 +31,9 @@
 /* navbar css :end */
 /* home section css start  */
 .home {
+    margin-top: 100px;
     min-height: 100vh;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     /* background: url(aman.jpeg) no-repeat;  */
     background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(images/home\ page.jpeg);
@@ -87,12 +88,13 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url
 }
 
 section {
-    padding: 2rem 7%;
+    /* padding: 2rem 7%; */
 }
 
 .home.contantt {
     max-width: 40rem;
     justify-content: center;
+    margin-topss: 20px;
 }
 
 .new-home {
@@ -715,3 +717,191 @@ li:hover {
     border-radius: 5px;
     height: 380px;
 }
+/* form css  */
+.form-block {
+    background-color: rgba(255, 255, 255, 0.352);
+
+    width: 440px;
+    height: 400px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e8e8ef;
+    margin-top: 65px   ;
+}
+
+.form-block form {
+    padding: 0 20px 30px 20px;
+}
+
+.form-block input:focus,
+.form-block textarea:focus {
+    border: 1px solid #f85359;
+}
+
+.form-block input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    color: #172b43;
+    font-size: 16px;
+    outline: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e6e6e6;
+}
+
+.form-block textarea {
+    max-height: 200px;
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    color: #172b43;
+    font-size: 16px;
+    outline: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e6e6e6;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #f85359;
+    background-color: #f85359;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+    border-color: #ffbc80;
+}
+
+.custom-control-label::before {
+    position: absolute;
+    top: -1px;
+    left: -1.5rem;
+    display: block;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    content: "";
+    background-color: #fff;
+    border: #adb5bd solid 1px;
+}
+
+.custom-control-label::after {
+    position: absolute;
+    top: -3px;
+    left: -26px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    content: "";
+    background: no-repeat 50%/50% 50%;
+}
+
+.custom-control {
+    margin-bottom: 10px;
+}
+
+.form-block label input {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+}
+
+.fieldsets label {
+    position: relative;
+    top: -10px;
+    font-size: 14px;
+    color: #f85359;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-control label {
+    text-indent: -21px;
+    padding: 0 0 0 21px;
+    font-size: 13px;
+}
+
+.form-block label a {
+    color: #000;
+}
+
+.form-header {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 0 0 20px 0;
+    background-color: #fff5f5;
+}
+
+.form-header h2 span {
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    color: #0a2233;
+}
+
+.form-header p {
+    text-align: center;
+}
+
+.form-block p.trm {
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.form-block p.trm i {
+    padding: 5px 5px 0 0;
+}
+
+.form-block button:hover {
+    background-color: #0a2233;
+}
+
+.form-block button {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Merriweather;
+    padding: 0 40px;
+    line-height: 60px;
+    text-align: center;
+    outline: 0;
+    color: #fff !important;
+    background-color: #005c60;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+}
+.form-header {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 0 0 20px 0;
+    background-color: rgba(255, 255, 255, 0.352);
+
+}
+.form-header h2 span {
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    color: #005c60;
+    border: solid rgba(255, 255, 255, 0.352);
+    margin: 10px ;
+    padding: 0 10px;
+}
+
