@@ -711,3 +711,7 @@ li:hover {
     background-color: #92d2f4;
     color: #000000;
 }
+.imf2{
+    border-radius: 5px;
+    height: 380px;
+}
