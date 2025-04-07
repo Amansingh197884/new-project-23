@@ -109,6 +109,7 @@ section {
     color: #fff;
     text-align: center;
     padding-top: 40px;
+    max-width: 700px;
 }
 
 .home .contantt p {
@@ -927,6 +928,9 @@ li:hover {
     border: 1px solid #e8e8ef;
     margin-top: 65px   ;
 align-items: center;
+text-align: center;
+justify-content: center;
+align-content: center;
 }
 .huuu{
     
