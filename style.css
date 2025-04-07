@@ -932,10 +932,14 @@ text-align: center;
 justify-content: center;
 align-content: center;
 }
-@media screen and (max-width:360px){
+@media screen and(max-width:370px) {
     #form{
-        margin-left: 40px;
+        padding: 0;
     }
+    .home{
+        padding: 0;
+    }
+    
 }
 .huuu{
     
