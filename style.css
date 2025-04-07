@@ -20,6 +20,7 @@
     padding: 10px 20px;
     text-decoration: none;
     color: #fff;
+
 }
 
 .but:hover {
@@ -88,9 +89,6 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url
     }
 }
 
-section {
-    padding: 5rem 7%;
-}
 
 .home.contantt {
     max-width: 40rem;
@@ -122,7 +120,7 @@ section {
 
 .home {
     /* background-position: left; */
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
 
 }
@@ -137,7 +135,7 @@ section {
 
 .contantt a {
     text-decoration: none;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 /* new para  */
@@ -147,7 +145,7 @@ section {
     justify-content: center;
 }
 
-.new-home {
+.new-home{
 
     justify-content: center;
 }
@@ -919,7 +917,6 @@ li:hover {
 #form{
     padding: 3rem 1%;
     background-color: rgba(255, 255, 255, 0.352);
-
     width: 350px;
     height: 400px;
     border-radius: 6px;
@@ -927,10 +924,10 @@ li:hover {
     box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
     border: 1px solid #e8e8ef;
     margin-top: 65px   ;
-align-items: center;
-text-align: center;
-justify-content: center;
-align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .huuu{
