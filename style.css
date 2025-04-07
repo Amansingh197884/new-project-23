@@ -932,6 +932,11 @@ text-align: center;
 justify-content: center;
 align-content: center;
 }
+@media screen and (max-width:360px){
+    #form{
+        margin-left: 40px;
+    }
+}
 .huuu{
     
     font-size: 40px;
