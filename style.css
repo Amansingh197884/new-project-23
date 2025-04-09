@@ -1109,11 +1109,8 @@ align-content: center;
     border: solid #004548;
     border-radius: 5px;
 }
-@media screen and (max-width:370px){
-    .image-high{
-        margin-bottom: 15px;
-    }
-}
+
+
 .image-high:hover{
     border: none;
 }
