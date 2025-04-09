@@ -1054,7 +1054,7 @@ color: #82dbf3;
             background: darkred;
         }
         .liket{
-            /* justify-content: center; */
+            justify-content: center;
         }
         .navbar-toggler{
             border: none;
