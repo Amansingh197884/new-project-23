@@ -1062,3 +1062,9 @@ color: #82dbf3;
 .navbar-toggler {
 border: none;
     }
+    @media only screen and (max-width: 767px) {
+        .contantt h3{
+            font-size: 1.4rem;
+            line-height: 3.4rem;
+        }
+    }
