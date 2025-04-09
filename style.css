@@ -1111,7 +1111,7 @@ align-content: center;
 }
 @media screen and (max-width:370px){
     .image-high{
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 }
 .image-high:hover{
