@@ -106,44 +106,44 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url
     justify-content: center;
 }
 
-.home .contantt h3 {
+.home .contantttt h3 {
     font-size: 4rem;
     /* text-transform: uppercase; */
     color: #fff;
-    text-align: center;
+    text-align: start;
     padding-top: 40px;
     /* max-width: 700px; */
 }
 
-.home .contantt p {
+.home .contantttt p {
     font-size: 1rem;
     color: #fff;
     padding: 1rem 0;
     max-height: 40rem;
-    text-align: center;
+    text-align: start;
 }
 
 .home {
     /* background-position: left; */
     /* justify-content: center; */
-    text-align: center;
+    text-align: start;
 
 }
 
-.home.contantt h3 {
+.home.contantttt h3 {
     font-size: 3rem;
-    text-align: center;
+    text-align: start;
 }
 
-.home.contantt p {
+.home.contantttt p {
     font-size: 1rem;
-    text-align: center;
+    text-align: start;
 }
 
-.contantt a {
+.contantttt a {
     text-decoration: none;
     /* margin: 10px; */
-    text-align: center;
+    text-align: start;
 }
 
 /* new para  */
@@ -455,9 +455,25 @@ list .card-item .card-image {
 
 }
 .image1-card:hover{
-    transform: scale(1.1);
-    transition: 19ms;
+    transform: scale(1.05);
+    transition: 1s;
+    border-radius: 0;
+        /* background: var(--color-hover); */
+        /* transform: translateY(-15px);
+        box-shadow: none; */
+    
 }
+.image-card:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    border-radius: 0;
+        /* background: var(--color-hover); */
+        /* transform: translateY(-15px);
+        box-shadow: none; */
+    
+}
+
+
 
 
 
@@ -466,7 +482,6 @@ list .card-item .card-image {
 
 /* card section css end  */
 .content-a {
-    justify-content: center;
     text-align: center;
 }
 
@@ -564,6 +579,7 @@ list .card-item .card-image {
 .nav-link.active {
     color: green;
 }
+
 
 @media (min-width: 991px) {
     .nav-link::before {
@@ -1065,6 +1081,37 @@ border: none;
     @media only screen and (max-width: 767px) {
         .contantt h3{
             font-size: 1.4rem;
-            line-height: 3.4rem;
+            /* line-height: 3.4rem; */
         }
     }
+    .About-img{
+
+        border-radius: 10px;
+        max-width: 100%;
+        /* height: auto; */
+        display: block;
+        height: 400px;
+    }
+    .About-para{
+        line-height: 1.6rem;
+    }
+.list-styale li{
+    list-style: square;
+    color: #005c60;
+    margin-left: 20px;
+align-content: center;    
+}
+.parao{
+    line-height: 1.8rem;
+}
+.image-high{
+    aspect-ratio: 3/ 3.5;
+    border: solid #004548;
+    border-radius: 5px;
+}
+.image-high:hover{
+    border: none;
+}
+.nav-link:hover{
+    font-weight: 600;
+}
