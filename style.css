@@ -1225,6 +1225,11 @@ text-align: start;
         padding: 20px;
 
     }
+
+    .card:hover{
+        background-color: #dbceba;
+        color: #0F9E99;
+    }
     .Aman-button{
         text-decoration: none;
         text-align: center;
