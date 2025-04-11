@@ -122,6 +122,24 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url
     max-height: 40rem;
     text-align: start;
 }
+@media screen and (max-width:500px){
+    .home .contantttt h3 {
+        font-size: 2rem;
+        /* text-transform: uppercase; */
+        color: #fff;
+        text-align: center;
+        padding-top: 40px;
+        /* max-width: 700px; */
+    }
+    
+    .home .contantttt p {
+        font-size: 0.5rem;
+        color: #fff;
+        padding: 1rem 0;
+        max-height: 40rem;
+        text-align: center;
+    }
+}
 
 .home {
     /* background-position: left; */
@@ -160,7 +178,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url
 }
 
 .new-home .contantt h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     /* text-transform: uppercase; */
     color: #fff;
     text-align: center;
