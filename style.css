@@ -488,6 +488,7 @@ list .card-item .card-image {
         /* background: var(--color-hover); */
         /* transform: translateY(-15px);
         box-shadow: none; */
+        cursor: pointer;
     
 }
 .image-card:hover{
@@ -497,6 +498,7 @@ list .card-item .card-image {
         /* background: var(--color-hover); */
         /* transform: translateY(-15px);
         box-shadow: none; */
+        cursor: pointer;
     
 }
 
@@ -1013,7 +1015,7 @@ li:hover {
     font-size: 40px;
     /* display: block; */
     /* font-weight: 700; */
-    color: #005c60;
+    color: #232627;
     /* border: solid rgba(255, 255, 255, 0.352); */
     /* margin: 10px ; */
     margin-bottom: 20px;
@@ -1029,7 +1031,7 @@ li:hover {
     text-align: center;
     outline: 0;
     color: #fff !important;
-    background-color: #005c62;
+    background-color: #232627;
     border: none;
     border-radius: 6px;
     width: 100%;
@@ -1227,8 +1229,7 @@ text-align: start;
     }
 
     .card:hover{
-        background-color: #dbceba;
-        color: #0F9E99;
+        cursor: pointer;
     }
     .Aman-button{
         text-decoration: none;
