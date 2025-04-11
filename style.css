@@ -285,6 +285,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url
 
 }
 
+
 .buttt {
     background-color: #92d2f4;
 
@@ -447,11 +448,10 @@ list .card-item .card-image {
     border-radius: 15px;
 }
 
-.image1-card {
-    width: 100%;
+.image1-cardd {
     object-fit: cover;
     border-radius: 15px;
-    aspect-ratio: 10/ 12;
+    
 
 }
 .image1-card:hover{
@@ -1008,6 +1008,12 @@ color: #82dbf3;
 }
 .h111{
     font-size: 1.2rem;
+    text-align: start;
+}
+@media screen and (max-width:600px){
+    .h111{
+        text-align: center;
+    }
 }
 
         /* Button Styling */
@@ -1106,8 +1112,8 @@ align-content: center;
 }
 .image-high{
     aspect-ratio: 3/ 3.5;
-    border: solid #004548;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 
@@ -1116,4 +1122,43 @@ align-content: center;
 }
 .nav-link:hover{
     font-weight: 600;
+}
+.page{
+    text-align: start;
+}
+@media screen and (max-width:500px){
+    .page{
+        text-align: center;
+    }
+}
+.list-icon a{
+text-decoration: none;
+color: #fff;
+font-size: 1.2rem;
+padding-right: 3px;
+font-weight: 500;
+text-align: start;
+}
+.list-icon i{
+    padding: 3px;
+}
+.list-icon i:hover{
+    color: #06a96a;
+}
+.list-icon a:hover{
+    color: #82dbf3;
+}
+@media screen and (max-width:700px){
+    footer{
+        text-align: center;
+    }
+    
+}
+.alll-center{
+    text-align: start;
+}
+@media screen and (max-width:500px){
+    .alll-center{
+        text-align: center;
+    }
 }
