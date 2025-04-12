@@ -1050,8 +1050,17 @@ footer{
 color: #82dbf3;
 }
 .h111{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: start;
+    padding: 5;
+}
+.h122{
+    
+    font-size: 1rem;
+    text-align: start;
+    padding: 5;
+    text-decoration: none;
+    color: #fff;
 }
 @media screen and (max-width:600px){
     .h111{
