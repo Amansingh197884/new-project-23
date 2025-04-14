@@ -405,19 +405,7 @@ list .card-item .card-image {
 .wonders {
     padding-left: 0;
 }
-.wondersss {
-    padding-left: 2;
-   }
- @media (min-width: 1335px) and (max-width:1700px){
-    .wondersss{
-        margin-left: 1.5rem;
-    }
- }
-   @media screen and (max-width:500px){
-       .wondersss{
-           margin-left: 0;
-       }
-   }
+
 
 
 
@@ -453,7 +441,7 @@ list .card-item .card-image {
     display: block;
     user-select: none;
     /* background: #effdf5; */
-    padding: 18px;
+    padding: 18px;   
     /* border-radius: 12px; */
     text-decoration: none;
     /* border: 2px solid transparent; */
@@ -1249,6 +1237,26 @@ text-align: start;
 
     .card:hover{
         cursor: pointer;
+    }
+    .card{
+        display: block;
+        user-select: none;
+        /* background: #effdf5; */
+        padding: 18px;
+        border-radius: 12px;
+        text-decoration: none;
+        border: 2px solid transparent;
+        /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05); */
+        transition: 0.2s ease;
+        /* margin: 20px; */
+        overflow: hidden;
+    }
+    .card-bodyy{
+      width: 100%;
+      background-color: #005c62;
+      overflow: hidden;
+      background-position: center;
+      background-size: contain;
     }
     .Aman-button{
         text-decoration: none;
