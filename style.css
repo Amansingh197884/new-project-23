@@ -119,10 +119,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url
         min-height: fit-content;
     }
 }
-.contantt{
-    text-align: start;
 
-}
 
 
 
@@ -1161,6 +1158,7 @@ border: none;
     }
     .About-para{
         line-height: 1.6rem;
+        text-align: start;
     }
 .list-styale li{
     list-style: square;
@@ -1219,18 +1217,13 @@ text-align: start;
 }
 @media screen and (max-width:500px){
     .alll-center{
-        text-align: center;
+        text-align: start;
     }
 }
-.AMAN-TEXT{
-    padding-left: 15px;
-    
+.wonderss{
+    padding-left: 1.5rem;
 }
-@media screen and (max-width:500px){
-    .AMAN-TEXT{
-        padding-left: 0;
-    }
-}
+
 
 .image-price{
     width: 100%;
