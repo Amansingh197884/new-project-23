@@ -119,7 +119,10 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url
         min-height: fit-content;
     }
 }
+.contantt{
+    text-align: start;
 
+}
 
 
 
@@ -557,7 +560,7 @@ list .card-item .card-image {
 
 }
 
-.btn button {
+.butt button {
     width: 100%;
     padding: 10px 20px;
 
@@ -568,7 +571,7 @@ list .card-item .card-image {
     transition: 0.5s ease;
     cursor: pointer;
     background-color:  #004548;
- 
+ max-width: 300px;
 }
 .btnn {
     
@@ -582,10 +585,10 @@ font-size: 1.3rem;
     text-align: center;
 }
 
-.btn button:hover {
+.butt button:hover {
     background-color: #005c60;
     color: rgb(255, 255, 255);
-    transform: scale(1.1);
+    transform: scale(0.9);
     transition: 19ms;
 }
 
